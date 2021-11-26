@@ -1,4 +1,4 @@
-package OopFourBasePrinciple;
+package OopFourBasePrinciple.Encapsulation;
 
 public class Book {
     private String name;
