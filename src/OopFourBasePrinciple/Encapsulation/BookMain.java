@@ -1,7 +1,5 @@
 package OopFourBasePrinciple.Encapsulation;
 
-import OopFourBasePrinciple.Encapsulation.Book;
-
 public class BookMain {
     public static void main(String[] args) {
         Book harryPotter = new Book("Harry Potter", 150);

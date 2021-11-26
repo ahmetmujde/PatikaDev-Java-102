@@ -1,4 +1,4 @@
-package RelationshipsBetweenClasses;
+package OopFourBasePrinciple.RelationshipsBetweenClasses;
 
 public class RbcMain {
     public static void main(String[] args) {

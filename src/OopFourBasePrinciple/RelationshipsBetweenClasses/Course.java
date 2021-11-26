@@ -1,4 +1,4 @@
-package RelationshipsBetweenClasses;
+package OopFourBasePrinciple.RelationshipsBetweenClasses;
 
 public class Course {
     private String courseName;
