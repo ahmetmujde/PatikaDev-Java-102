@@ -20,4 +20,26 @@ public class Assistant extends Academician{
     public void takeAQuiz(){
         System.out.println(this.getFullName()+" started a quiz ");
     }
+
+    @Override
+    public void login()
+    {
+        System.out.println(this.getFullName() + " is logged the university");
+    }
+
+    @Override
+    public void logout(){
+        System.out.println(this.getFullName() + " is logged out of university");
+    }
+
+    @Override
+    public void refectory() {
+        System.out.println(this.getFullName() + " is logged the refectory");
+    }
+
+    @Override
+    public void loginLesson() {
+        System.out.println(this.getFullName() + " is logged the lesson");
+    }
+
 }

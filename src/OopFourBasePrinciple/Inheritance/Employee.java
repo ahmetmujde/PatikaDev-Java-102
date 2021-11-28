@@ -1,6 +1,6 @@
 package OopFourBasePrinciple.Inheritance;
 
-public class Employee extends Worker{
+public abstract class Employee extends Worker{
     private String department;
     private String shift;
 
@@ -26,9 +26,5 @@ public class Employee extends Worker{
         this.shift = shift;
     }
 
-    public void work(){
-        System.out.println(this.getFullName()+" employee started working");
-    }
-
-
+    public abstract void work();
 }

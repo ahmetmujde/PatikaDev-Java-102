@@ -19,4 +19,25 @@ public class InformationTechnologies extends Employee{
     public void networkSetup(){
         System.out.println("network setup finished by " + this.getFullName());
     }
+
+    @Override
+    public void login()
+    {
+        System.out.println(this.getFullName() + " is logged the university");
+    }
+
+    @Override
+    public void logout(){
+        System.out.println(this.getFullName() + " is logged out of university");
+    }
+
+    @Override
+    public void refectory() {
+        System.out.println(this.getFullName() + " is logged the refectory");
+    }
+
+    @Override
+    public void work() {
+        System.out.println(this.getFullName()+" employee started working");
+    }
 }

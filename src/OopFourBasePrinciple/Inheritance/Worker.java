@@ -1,6 +1,6 @@
 package OopFourBasePrinciple.Inheritance;
 
-public class Worker {
+public abstract class Worker {
     private String fullName;
     private String phoneNumber;
     private String email;
@@ -35,22 +35,11 @@ public class Worker {
         this.email = email;
     }
 
-    public void login(){
-        System.out.println(this.getFullName() + " is logged the university");
-    }
+    public abstract void login();
 
-    // added method overloading
-    public void login(String clock){
-        System.out.println(this.getFullName() + " is logged the university at " + clock);
-    }
+    public abstract void logout();
 
-    public void logout(){
-        System.out.println(this.getFullName() + " is logged out of university");
-    }
-
-    public void refectory(){
-        System.out.println(this.getFullName() + " is logged the refectory");
-    }
+    public abstract void refectory();
 
     // created for loop  to Polymorphism
     public static void usersLoggedIn(Worker[] loginUsers){

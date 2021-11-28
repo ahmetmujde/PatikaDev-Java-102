@@ -1,6 +1,6 @@
 package OopFourBasePrinciple.Inheritance;
 
-public class Academician extends Worker{
+public abstract class Academician extends Worker{
     private String department;
     private String title;
 
@@ -26,14 +26,5 @@ public class Academician extends Worker{
         this.title = title;
     }
 
-    public void loginLesson(){
-        System.out.println(this.getFullName() + " is logged the lesson");
-    }
-
-    //added method override
-
-    @Override
-    public void login(){
-        System.out.println(this.getFullName() + " is logged the university from called A door");
-    }
+    public abstract void loginLesson();
 }

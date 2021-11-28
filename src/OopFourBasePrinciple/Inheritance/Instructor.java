@@ -28,4 +28,20 @@ public class Instructor extends Academician{
     public void login(){
         System.out.println(this.getFullName() + " is logged the university from called I door");
     }
+
+    @Override
+    public void loginLesson(){
+        System.out.println(this.getFullName() + " is logged the lesson");
+    }
+
+    @Override
+    public void logout(){
+        System.out.println(this.getFullName() + " is logged out of university");
+    }
+
+    @Override
+    public void refectory() {
+        System.out.println(this.getFullName() + " is logged the refectory");
+    }
+
 }
