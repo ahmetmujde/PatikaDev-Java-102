@@ -29,4 +29,11 @@ public class Academician extends Worker{
     public void loginLesson(){
         System.out.println(this.getFullName() + " is logged the lesson");
     }
+
+    //added method override
+
+    @Override
+    public void login(){
+        System.out.println(this.getFullName() + " is logged the university from called A door");
+    }
 }

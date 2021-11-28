@@ -36,14 +36,19 @@ public class Worker {
     }
 
     public void login(){
-        System.out.println(this.fullName + " is logged the university");
+        System.out.println(this.getFullName() + " is logged the university");
+    }
+
+    // added method overloading
+    public void login(String clock){
+        System.out.println(this.getFullName() + " is logged the university at " + clock);
     }
 
     public void logout(){
-        System.out.println(this.fullName + " is logged out of university");
+        System.out.println(this.getFullName() + " is logged out of university");
     }
 
     public void refectory(){
-        System.out.println(this.fullName + " is logged the refectory");
+        System.out.println(this.getFullName() + " is logged the refectory");
     }
 }

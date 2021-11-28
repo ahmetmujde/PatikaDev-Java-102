@@ -112,5 +112,14 @@ public class InheritanceMain {
         System.out.println(iT1.getTask());
         iT1.networkSetup();
 
+        System.out.println("\n\n");
+
+        //run to method overloading
+        i1.login("08:15");
+
+        //run to method override
+        i1.login();
+
+
     }
 }

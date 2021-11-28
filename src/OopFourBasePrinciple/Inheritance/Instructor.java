@@ -23,4 +23,9 @@ public class Instructor extends Academician{
     public void takeAExam(){
         System.out.println(this.getFullName()+" started a exam ");
     }
+
+    @Override
+    public void login(){
+        System.out.println(this.getFullName() + " is logged the university from called I door");
+    }
 }
