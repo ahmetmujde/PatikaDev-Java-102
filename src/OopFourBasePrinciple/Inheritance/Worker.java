@@ -51,4 +51,12 @@ public class Worker {
     public void refectory(){
         System.out.println(this.getFullName() + " is logged the refectory");
     }
+
+    // created for loop  to Polymorphism
+    public static void usersLoggedIn(Worker[] loginUsers){
+        for (Worker w : loginUsers) {
+            w.login();
+        }
+    }
+
 }
